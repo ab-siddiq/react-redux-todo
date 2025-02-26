@@ -8,7 +8,7 @@ export function Tasks(){
     console.log(filter)
     return(
         <div>
-            task
+            
         </div>
     )
 }

@@ -1,12 +1,16 @@
-import { Link } from "react-router-dom";
-
+// import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom"
 export default function NavBar(){
 
     return (
-        <div className="bg-green-500 flex justify-center p-1">
-            <Link className="p-1 border border-amber-300 m-1" to='/'>TODO</Link>
-            <Link className="p-1 border border-amber-300 m-1" to='/'>Tasks</Link>
-            <Link className="p-1 border border-amber-300 m-1" to='/login'>Login</Link>
+        
+       <nav className="max-w-7xl mx-auto h-16 flex items-center gap-3 px-5">
+        <div className="flex items-center gap-2">
+            <Link to='/' className="">task </Link>
+            <Link to='/login' className="">task2 </Link>
+            <Link to='' className="">task3 </Link>
         </div>
+       </nav>
     )
 }
