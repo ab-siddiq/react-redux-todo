@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
+import { ModeToggle } from "../mode-toggle"
 export default function NavBar(){
 
     return (
@@ -10,6 +11,9 @@ export default function NavBar(){
             <Link to='/' className="">task </Link>
             <Link to='/login' className="">task2 </Link>
             <Link to='' className="">task3 </Link>
+        </div>
+        <div className="">
+            <ModeToggle></ModeToggle>
         </div>
        </nav>
     )
